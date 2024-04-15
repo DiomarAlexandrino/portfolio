@@ -1,23 +1,47 @@
 @use '../variables'
 @use '../mixins'
 
-.technologies-container
+#technologies-container
     margin-bottom: 1rem
+    flex: 1 1 0
+    display: flex
+    @include mixins.center
+    margin-left: 2em
+    flex-direction: column
+    background-color: variables.$bg-color-secondary
+    padding: 2em 
+    margin-bottom: 2em
+    text-align: left
+    width:100%
+    border-radius: variables.$card-border-radius
 
-    .technologies-grid
+    .technologies-grid  
+        display: flex
+        flex-direction: row
+        text-align: left
+        position: center
+        padding: 2em 5em
         display: flex
         flex-wrap: wrap
-        gap: 1.5rem
+        gap: 1em
 
         .technology-card
             @include mixins.center
-            gap: 1rem
-            padding: 1rem
+            margin: 0
+            display: flex
+            flex-wrap: wrap
+            flex-direction: column
+            align-items: center
+            justify-content: start
+            gap: 1em
+            padding: 1em
             border: 1px solid #333
-            width: 45%
+            width:40%
+            height: 50%
             border-radius: variables.$card-border-radius
 
             h3
+                text-align: left
                 color: variables.$text-color
                 margin-bottom: 1rem
 
@@ -45,3 +69,6 @@
         #java
             svg
                 color:#66340c
+                        
+     
+          

@@ -2,14 +2,15 @@ import Avatar from "../img/editor.jpg";
 import "../styles/components/projectsContainer.sass";
 
 const ProjectsContainer = () => {
-    return <section className="projects-container">
+    return <section className="projects-container" id="projects-container">
         <h2> Projetos</h2>
-        <p>Fiz alguns projetos que estão no github, alguns como free e alguns para fins didáticos</p>
+        <p>Fiz alguns projetos que estão no github,<br>
+        </br> alguns como free e alguns para fins didáticos</p>
 
     <a href="https://6619b9fedc2f1f0e8b68eb36--editordetextorichtext.netlify.app/">
         <div  className="info-card">
             <img src={Avatar} alt="Diomar Alexandrino"/>
-	        <h2>Editor de Texto</h2>
+	        <h3>Editor de Texto</h3>
             <p>Clique ou veja abaixo o funcionamento do projeto.</p>
         </div>
     </a> 
@@ -18,7 +19,8 @@ const ProjectsContainer = () => {
     gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     <p>
-        Projeto em Construção em breve mais novidades aqui!
+       <h3><i> Projeto em Construção<br>
+       </br> em breve mais novidades aqui!</i></h3>
     {/*
      editor com formatação Rich-text  |
 

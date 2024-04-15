@@ -1,20 +1,45 @@
 @use '../variables'
 @use '../mixins'
-      
-#info-card
-    background-color: variables.$bg-color
-    flex: 1 1 0
-    border-radius: variables.$container-border-radius
-    display: flex
-    align-items: center
-    flex-direction: column
-    text-align: center
-    position: center
-    padding: 3rem 0
 
-    p
-        color: variables.$text-color
-        font-weight: bold
-        color: variables.$text-color-secondary
-        margin-bottom: 1rem
-        line-height: 1.4rem
+#projects-container
+  
+    display: flex
+    flex-wrap: wrap
+    @include mixins.center
+    margin-left: 5em
+    flex-direction: column
+    background-color: variables.$bg-color-secondary
+    padding: 2em 2em
+    margin-bottom: 2em
+    text-align: left
+    width: 90%
+    border-radius: variables.$card-border-radius
+
+
+    .info-card
+
+        background-color: variables.$bg-color
+        flex: 1 1 0
+        border-radius: variables.$container-border-radius
+        text-align: center
+        position: center
+        padding: 1em 1em
+
+
+        p
+            max-width: 100%
+            font-weight: bold
+            color: variables.$text-color-secondary
+            margin-bottom: 1rem
+            line-height: 1.4rem
+        h3
+            color: variables.$text-color-secondary
+            font-size: 2em
+
+
+        img
+            width: 70%
+            border-radius: variables.$container-border-radius
+            top:-8rem
+
+            

@@ -1,5 +1,5 @@
 @use 'variables'
-    
+@use 'mixins'
 *
     padding: 0
     margin: 0
@@ -8,7 +8,16 @@
 
 body
     background: variables.$body-bg-color
+    display: flex
+    align-items: center
+    justify-content: space-around
+    padding: 0em 18em
+    margin: 6em
+    flex-direction: column
 
 
 a, svg
     transition: .4s
+    
+    
+    

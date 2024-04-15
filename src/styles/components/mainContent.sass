@@ -3,9 +3,14 @@
     
 #main-content
     background-color: variables.$bg-color
-    flex: 2 1 0
+    background-color: variables.$bg-color
+    flex: 1 1 0
     border-radius: variables.$container-border-radius
     padding: 3rem
+    width: 100%
+    flex-direction: column
+    align-items: center
+    flex-wrap: wrap
 
     section
         display: flex
@@ -30,4 +35,8 @@
     .btn
         @include mixins.btn
         align-self: start
+    
+    img
+        padding: 2em
+        width: 45%
             

@@ -13,8 +13,8 @@ const technologies = [
     {id: "java", name:"Java",      desc: "conhecimento Intermediário em Java" ,  icon: <DiJava/>},
 ]
 const TechnologiesContainer = () => {
-    return <section className='technologies-container'>
-        <h2>Habilidades em Tecnologias</h2>
+    return <section className='technologies-container' id='technologies-container'>
+        <h2>Tecnologias</h2>
         <div className="technologies-grid">
             {technologies.map((tech) => (
                  
