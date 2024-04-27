@@ -43,7 +43,7 @@ const ProjectsContainer = () => {
 
         um ecommerce    | 
         */
-        };
+        }
 
     </p>
     </section>
