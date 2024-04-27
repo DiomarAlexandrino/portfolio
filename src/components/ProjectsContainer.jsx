@@ -25,16 +25,13 @@ const ProjectsContainer = () => {
             <h3>Monitor de uso de memória</h3>
             <p>Veja abaixo como ficou o projeto.</p>
             <img src={Avatar2} alt="Cálculo de performance "/>
-	      
+
         </div>
     
-    <iframe width="640" height="360" src="https://6619b9fedc2f1f0e8b68eb36--editordetextorichtext.netlify.app/"
-    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
-    gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p>
-       <h3><i> Projeto em Construção<br>
-       </br> em breve mais novidades aqui!</i></h3>
-       <p/>
+        <p>
+        <h3><i> Projeto em Construção<br>
+        </br> em breve mais novidades aqui!</i></h3>
+        <p/>
     {
     /*
 
