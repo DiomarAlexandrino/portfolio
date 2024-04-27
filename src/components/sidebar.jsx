@@ -12,11 +12,9 @@ const Sidebar = () => {
         <p className="title">Desenvolvedor</p>
         < SocialNetworks />
         < InformationContainer />
-      
+
         <a href= "https://drive.google.com/file/d/12Pmwj9GZ8R5nNistrNImYNNAanCXra31/view?usp=sharing" className="btn"> Download Currículo</a>
         
-
-        </aside>;
-};
-
+        </aside>
+}
 export default Sidebar
