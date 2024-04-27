@@ -1,5 +1,5 @@
 import Avatar from "../img/editor.jpg";
-import Avatar2 from "../img/projeto python.png";
+import Avatar2 from "../img/projetopython.png";
 import "../styles/components/projectsContainer.sass";
 
 const ProjectsContainer = () => {
