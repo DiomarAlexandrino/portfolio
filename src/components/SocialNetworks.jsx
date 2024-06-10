@@ -10,8 +10,6 @@ const socialNetworks =[
     {name: "instagram" , icon: <FaInstagram />, href:"https://www.instagram.com/diomaralexandrino/" },
 ];
 
-
-
 const SocialNetworks = () => {
     return(
         <section id="social-networks">
