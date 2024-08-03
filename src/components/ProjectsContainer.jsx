@@ -32,7 +32,7 @@ const ProjectsContainer = () => {
             <h3>Clone de spotify para estudo </h3>
             <p>Habilidades utilizadas: REACT - NEXT - SUPABASE - STRIPE - TYPESCRIPT </p>
             <p>Veja abaixo como ficou o projeto.</p>
-            <iframe width="640" height="360" src="https://clone-spotify-ruddy.vercel.app/"
+            <iframe width="640" height="540" src="https://clone-spotify-ruddy.vercel.app/"
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
                     gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
