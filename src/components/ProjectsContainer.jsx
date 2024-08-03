@@ -15,7 +15,7 @@ const ProjectsContainer = () => {
             <p>Veja e interaja com o editor abaixo.</p>
         </div>
     </a>
-    <iframe width="640" height="360" src="https://6619b9fedc2f1f0e8b68eb36--editordetextorichtext.netlify.app/"
+    <iframe width="640" height="360" src="https://editordetextorichtext.netlify.app/"
     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
     gyroscope; picture-in-picture" allowfullscreen></iframe>
     
